@@ -1,9 +1,9 @@
 * {
-  font-family: "Carter One", cursive;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
 body {
-  font-family: "Carter One", cursive;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
@@ -32,7 +32,7 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: "Carter One", cursive;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #cccccc;
   margin-right: 50px;
@@ -45,7 +45,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  /* border-bottom: 3px solid #dddddd; */
 }
 
 h2,
@@ -71,7 +71,7 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: "Carter One", cursive;
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 90px;
@@ -167,18 +167,20 @@ h2 {
 }
 
 .work h3 {
-  position: absolute;
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 50px;
+  font-weight: 900;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
   background: #cccccc;
   border-bottom: 0;
 }
+
 
 .auth-image {
   width: 200px;
